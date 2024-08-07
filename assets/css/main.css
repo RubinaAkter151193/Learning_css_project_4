@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+/* Header */
+.header{
+    padding: 0px 248px;
+    color: white;
+    background-color: rgb(67, 65, 65);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item{
+    padding: 4px 16px;
+    /* color: azure; */
+    /* background-color: rgb(39, 35, 35); */
+    /* border: 1px solid rgb(179, 176, 176); */
+}
+/* Main Body */
+.main-body{
+    padding: 32px 180px;
+    background-color: rgb(215, 221, 246);
+}
+.card{
+    width:400px;
+    height: 400px;
+    padding: 32px 16px 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-header{
+    margin: 0px;
+}
+.price{
+    display: block;
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer */
+.footer{
+    color: white;
+    background-color: rgb(67, 65, 65);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Reuseble CSS */
+.btn{
+    padding: 4px 8px;
+    background-color: rgb(106, 250, 58);
+}
+.mt-8{
+    margin-top: 8px;
+    border: none;
+    border-radius: 2px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
